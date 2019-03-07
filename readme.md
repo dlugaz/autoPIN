@@ -13,8 +13,9 @@ This is a code for a device that uses servos to enter pin on a terminal.
 
 CC3200 Launch XL board uses Com via USB to communicate with PC. Download the drivers from Energia.nu website and install them.
 Then simply download Energia IDE, open the autoPIN.ino file from the project, compile and download.
-You will need to connect servos. Typically wiring is: red +5V, brown GND, orange signal. 
-By default we use pins:  
+You will need to connect servos. Typically wiring is: red +5V, brown GND, orange signal.
+
+By default we use pins:
 const int SERVO_THREE_PIN = 19;
 const int SERVO_FIVE_PIN = 18;
 const int SERVO_ZERO_PIN = 17;
