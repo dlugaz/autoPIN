@@ -29,7 +29,9 @@ const int SERVO_GREEN_PIN = 15;
 
 but you can change them.
 
-After you connect the board to USB, you should be able to communicate with the device via COM port. Baud is 9600 8n1. Every 5 seconds the device in idle state sends message:  "Waiting for commands". It also blinks green led if operating. 
+After you connect the board to USB, you should be able to communicate with the device via COM port. 
+Baud is *9600 8n1*. Every 5 seconds the device in idle state sends message:  *"Waiting for commands"*. 
+It also blinks green led if operating. 
 
 ## The construction
 
